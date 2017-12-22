@@ -14,7 +14,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("sample")
     public String getsSampleJson() {
-    	return ("{\"fname\": \"Bhuvan\",\"sname\": \"Arun\"}");
+    	return ("{\"fname\": \"Bhuvan\",\"sname\": \"Arun\",\"Address\":\"BANGALORE\"}");
     		
     }
 }
